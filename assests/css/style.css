@@ -1,0 +1,22 @@
+.box{
+	width: 100px;
+	display: inline-table;
+	text-align: center;
+	
+}
+.gifs{
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+header{
+	background-color: black;
+	color: white;
+}
+body{
+	background-color: grey;
+}
+.btn-info{
+	margin-right: 5px;
+	margin-top: 5px;
+}

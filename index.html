@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Gif Search</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./assests/css/style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+    <script type="text/javascript" src="./assests/javascript/app.js"></script>
+
+</head>
+<body>
+<div class="container-fluid">
+	<header><h1 class="text-center">Gif Search app !<img class="img-responsive logo" src="./assests/images/giflogo.gif"></h1>  </header>
+
+	<div class="row">
+		<div class="col-lg-2 card "  id="searchContainer" >
+
+		
+			<form id="searchbox">
+				<input  id="search1" type="submit" class="btn-info"></input>
+				<input type="text"  id="searchinput">
+				<label>Rating limit</label>
+				<select name="rating" id="ratinginput" >
+					<option value="Y">Y</option>
+					<option value="G">G</option>
+					<option value="PG">PG</option>
+					<option value="PG-13">PG-13</option>
+					<option value="R">R</option>
+				</select>
+				<br><label>gif limit: <div id="limitDisplay"> 10</div></label>
+				<input class="slider" type="range" name="limit" min="1" max="20" value="10" id="limitInput"></input>
+			</form>
+			
+
+			<div class="row">
+			<div class="col-lg-12" id="historyContainer">
+				<!-- <button class="btn btn-info" data-name="panda">panda</button> -->
+			</div>
+			</div>
+		
+		</div>
+		<div class="col-lg-10" id="resultContainer">
+			<p>Welcome to a silly app for gif searching! type something to get funny pictures that move and stuff!</p>
+		</div>
+		
+	</div>
+
+</div>
+</body>
+</html>
